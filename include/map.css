@@ -1,0 +1,67 @@
+html, body, #map_canvas {
+	margin: 0px;
+	padding: 0px
+}
+h4 {
+	margin-top:0.2em;
+	margin-bottom:0px;
+}
+.routeinfo {
+	width:100%;
+	font-size:12px;
+	border:1px solid #ddd;
+}
+.driverinfo {
+	font-size:12px;
+	border:1px solid #ddd;
+	width:600px;
+	text-align:center;
+}
+.rowheader {
+	font-weight:bold;
+}
+.routeinfo td {
+	padding:6px;
+}
+
+
+
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+.tab-content>.active{ padding:2em 0em;}
+iframe{ width:100%; min-height:900px; border:0px;}
+.nav>li>a {
+    padding: 10px 13px !important;
+}
+
+
+
+
+

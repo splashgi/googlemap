@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+<title>Routing Plan C</title>
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+<link rel="stylesheet" href="include/map.css">
+</head>
+
+<body>
+<div class="container">
+  <h2>Routing Plan C</h2>
+</div>
+<div id="exTab2" class="container">
+  <ul class="nav nav-tabs">
+    <li class="active"> <a  href="#1" data-toggle="tab">Overview</a> </li>
+    <li><a href="#d1" data-toggle="tab">Driver1</a> </li>
+    <li><a href="#d2" data-toggle="tab">Driver2</a> </li>
+    <li><a href="#d3" data-toggle="tab">Driver3</a> </li>
+    <li><a href="#d4" data-toggle="tab">Driver4</a> </li>
+  </ul>
+  <div class="tab-content ">
+    <div class="tab-pane active" id="1">
+   <p>Driver’s shift starts at 8am and assume order time-window is anytime after 8:30am. We only need 4 vehicles.</p>
+     <p>
+     Constraints<ul>
+     <li>Each order takes 5-minute duration.</li> 
+     <li>Time window is anytime after 8:30am</li>
+     </ul>
+     </p>
+     <table class="table table_striped" border="0">
+     	<tr>
+        	<th>Total vehicle</th>
+            <th>Totl travel time</th>
+            <th>Total idle time</th>
+            <th>Unserved</th>
+        <tr>
+        <td>4 </td>
+        <td>780.85</td>
+        <td>0</td>
+        <td>null</td>
+        </tr>
+     </table>
+    </div>
+    <div class="tab-pane" id="d1">
+      <iframe src="part3/d1.html" frameborder="0"></iframe>
+    </div>
+    <div class="tab-pane" id="d2">
+      <iframe src="part3/d2.html" frameborder="0"></iframe>
+    </div>
+     <div class="tab-pane" id="d3">
+      <iframe src="part3/d3.html" frameborder="0"></iframe>
+    </div>
+     <div class="tab-pane" id="d4">
+      <iframe src="part3/d4.html" frameborder="0"></iframe>
+    </div>
+   
+  </div>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>
